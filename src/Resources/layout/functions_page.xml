@@ -1,0 +1,99 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <Button
+        android:text="Quick Network Test"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal | center_vertical"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight=".0dp"
+        android:layout_marginTop="15.0dp"
+        android:layout_marginBottom="0.0dp"
+        android:id="@+id/testButton" />
+
+        <Button
+        android:text="Speed Test"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal | center_vertical"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight=".0dp"
+        android:layout_marginTop="65.0dp"
+        android:layout_marginBottom="0.0dp"
+        android:id="@+id/pingButton" />
+        
+        <Button
+        android:text="Shutdown System"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal | center_vertical"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight=".0dp"
+        android:layout_marginTop="115.0dp"
+        android:layout_marginBottom="0.0dp"
+        android:id="@+id/shutdownButton" />
+
+        <Button
+        android:text="Turn Monitor On"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal | center_vertical"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight=".0dp"
+        android:layout_marginTop="165.0dp"
+        android:layout_marginBottom="0.0dp"
+        android:id="@+id/monitorONButton" />
+        
+        <Button
+        android:text="Turn Monitor Off"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal | center_vertical"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight=".0dp"
+        android:layout_marginTop="215.0dp"
+        android:layout_marginBottom="0.0dp"
+        android:id="@+id/monitorOFFButton" />
+
+        <Button
+        android:text="Take Screenshot"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal | center_vertical"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight=".0dp"
+        android:layout_marginTop="265.0dp"
+        android:layout_marginBottom="0.0dp"
+        android:id="@+id/screenshotButton" />
+
+    <Button
+        android:text="Lock Computer (Currently: ...)"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal | center_vertical"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight=".0dp"
+        android:layout_marginTop="315.0dp"
+        android:layout_marginBottom="0.0dp"
+        android:id="@+id/PCLockButton" />
+
+</RelativeLayout>
