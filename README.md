@@ -1,3 +1,3 @@
-# TCPController-XamarinAndroid
+# TCPController-Android
 
-[Archived Code] TCP Client for Xamarin Android that allows you to control your windows computer.
+[Archived Code] TCP Client for Android that allows you to control your windows computer.
